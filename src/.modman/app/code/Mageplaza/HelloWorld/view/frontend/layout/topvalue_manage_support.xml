@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
-    <referenceContainer name="content">
-    <referenceBlock name="header.container" remove="true" />  
-    <referenceBlock name="catalog.topnav" remove="true" />
-    <referenceBlock name="footer.col.title.1" remove="true"/> 
-        <block class="Mageplaza\HelloWorld\Block\Index" name="topvalue_support" template="Mageplaza_HelloWorld::support.phtml" />
-    </referenceContainer>
-</page>
